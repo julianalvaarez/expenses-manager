@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.alert-active {
+    display: block;
+}
+
+.body {
+    max-width: 100%;
+}
+
+header {
+    background-color: #0056b3;
+}
+
+th {
+    border: 1px solid white;
+    padding: 6px;
+    font-weight: 400;
+}
+
+/* MODAL */
+
+.modal {
+    z-index: 20000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: transform .5s;
+}
+
